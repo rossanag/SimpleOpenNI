@@ -80,7 +80,7 @@
 
 ### Linux (Kinect v1, models 1414, 1473)
 
-This version work with the following Ubuntu Linux distributions: 18.04. 19.04 and 19.10
+This version works with the following Ubuntu Linux distributions: 18.04. 19.04 and 19.10
 This pluging works with this file version: libboost_system.so.1.54.0
 The steps are the following:
 
