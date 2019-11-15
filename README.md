@@ -80,6 +80,17 @@ Once you have downloaded the library unzip it and follow the next steps:
 
 3. Press **Cmd-V** or choose Edit > Paste menu to put "SimpleOpenNI" in this location.
 
+**Linux**
+It works on Ubuntu Linux 18.04, 19.04 and 19.10 after creating a soft link:
+1- locate libboost_system.so 1.5* (the pluging requieres 1.54.0 file version)
+2- ln -s  your_path/libboost_system.so.1.58.0  your_path/libboost_system.so.1.54.0 
+where the path to the file is usually under  /usr/lib/x86_64-linux-gnu/
+
+(It would be sudo ln -s /usr/lib/x86_64-linux-gnu/libboost_system.so.1.67.0 /usr/lib/x86_64-linux-gnu/libboost_system.so.1.54.0
+Observe that the file version may differ, in my case it was 1.67.0 ).
+
+Source: https://github.com/totovr/SimpleOpenNI/issues/24 and thanks to https://github.com/pointcloudAI for the clue.
+
 
 ## Test a program sample:
 
