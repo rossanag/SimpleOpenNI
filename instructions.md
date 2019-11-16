@@ -82,8 +82,7 @@
 
 This version works with the following Ubuntu Linux distributions: 18.04. 19.04 and 19.10
 
-This pluging works with this file version: libboost_system.so.1.54.0
-The steps are the following:
+This pluging works with this file version: libboost_system.so.1.54.0.  The steps are the following:
 
     1- Install libfreenect (https://github.com/OpenKinect/libfreenect)
     2- locate libboost_system.so 1.5* to get the path of ibboost_system and to find the version installed of it.
